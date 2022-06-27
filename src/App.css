@@ -1,0 +1,20 @@
+/* stilizuojam */
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+img{
+    max-width: 100%;
+}
+.allCountries{
+    display: flex;
+    flex-wrap: wrap;
+}
+.oneCountry{
+    border: 1px solid rgb(95, 95, 95);
+    width: 20%;
+}
